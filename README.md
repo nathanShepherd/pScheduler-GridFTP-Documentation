@@ -9,12 +9,12 @@ Detailed instructions included in the Playbook's README.md
 git clone https://github.com/nathanShepherd/Playbook-setup-globus-server.git
 ```
 
-# Clone GridFTP branch 
+## Clone GridFTP branch 
 ```
 git clone https://github.com/perfsonar/pscheduler.git --branch issue-155
 ```
 
-# Enter pscheduler directory and conduct a test
+## Enter pscheduler directory and conduct a test
 ```
 pscheduler task --tool globus disk-to-disk \
 --source ftp://speedtest.tele2.net/1KB.zip \
