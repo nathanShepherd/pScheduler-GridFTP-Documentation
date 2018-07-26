@@ -1,5 +1,5 @@
 # pScheduler-GridFTP-Documentation
-How to use pScheduler and an ansible script to quickly deploy a GridFTP Server and conduct data transfers.
+How to use pScheduler and an ansible script to quickly deploy a GridFTP Server and conduct file transfers.
 
 ## Install pScheduler
 
