@@ -22,7 +22,7 @@ pscheduler task --tool globus disk-to-disk \
 --timeout PT3S \
 --dest-path /nill
 ```
-### Under the hood, pscheduler is running the following command:
+Under the hood, pscheduler is running the following command:
 ```
 globus-url-copy -vb ftp://speedtest.tele2.net/1KB.zip file:///tmp/test.out
 ```
