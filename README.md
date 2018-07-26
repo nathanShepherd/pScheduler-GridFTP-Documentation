@@ -14,7 +14,7 @@ git clone https://github.com/nathanShepherd/Playbook-setup-globus-server.git
 git clone https://github.com/perfsonar/pscheduler.git --branch issue-155
 ```
 
-## Enter pscheduler directory and conduct a test
+## Finally, enter pscheduler directory and download a test file
 ```
 pscheduler task --tool globus disk-to-disk \
 --source ftp://speedtest.tele2.net/1KB.zip \
