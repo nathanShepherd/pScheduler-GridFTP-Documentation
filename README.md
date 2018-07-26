@@ -19,7 +19,7 @@ git clone https://github.com/perfsonar/pscheduler.git --branch issue-155
 pscheduler task --tool globus disk-to-disk \
 --source ftp://speedtest.tele2.net/1KB.zip \
 --dest file:///tmp/test.out \
---timeout PT3S \
+--timeout PT3S
 ```
 Under the hood, pscheduler is running the following command:
 ```
