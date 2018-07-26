@@ -20,7 +20,6 @@ pscheduler task --tool globus disk-to-disk \
 --source ftp://speedtest.tele2.net/1KB.zip \
 --dest file:///tmp/test.out \
 --timeout PT3S \
---dest-path /nill
 ```
 Under the hood, pscheduler is running the following command:
 ```
