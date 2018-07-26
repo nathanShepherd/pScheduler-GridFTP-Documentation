@@ -18,7 +18,13 @@ git clone https://github.com/perfsonar/pscheduler.git --branch issue-155
 ```
 pscheduler task --tool globus disk-to-disk \
 --source ftp://speedtest.tele2.net/1KB.zip \
---dest /tmp/test.out  \
---timeout PT5S \
+--dest file:///tmp/test.out \
+--timeout PT3S \
 --dest-path /nill
 ```
+### Under the hood, pscheduler is running the following command:
+```
+globus-url-copy -vb ftp://speedtest.tele2.net/1KB.zip file:///tmp/test.out
+```
+
+
