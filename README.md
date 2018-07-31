@@ -18,7 +18,7 @@ git clone https://github.com/nathanShepherd/Playbook-setup-globus-server.git
 ```
 git clone https://github.com/perfsonar/pscheduler.git --branch issue-155
 cd pscheduler
-sudo make fresh
+sudo make
 ```
 
 ## Build the Plugins to add them to the Server
