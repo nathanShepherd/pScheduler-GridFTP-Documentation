@@ -2,12 +2,7 @@
 How to use pScheduler and an ansible script to quickly deploy a GridFTP Server and conduct file transfers.
 
 ## Build and Install [perfSonar-Toolkit](https://github.com/perfsonar/pscheduler/wiki/Development-and-Test-System)
-```
-sudo yum install epel-release
-sudo yum install http://software.internet2.edu/rpms/el7/x86_64/main/RPMS/perfSONAR-repo-0.8-1.noarch.rpm
-sudo yum clean all
-sudo yum install perfsonar-toolkit
-```
+
 ## Clone Ansible-Playbook to install Globus and setup a GridFTP Endpoint
 Detailed instructions included in the Ansible Playbook's [README.md](https://github.com/nathanShepherd/Playbook-setup-globus-server). This step can be skipped if globus-url-copy is already installed.
 ```
