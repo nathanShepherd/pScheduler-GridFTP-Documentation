@@ -1,7 +1,7 @@
 # pScheduler-GridFTP-Documentation
 How to use pScheduler and an ansible script to quickly deploy a GridFTP Server and conduct file transfers.
 
-## Install pScheduler
+## Build and Install [pScheduler](https://github.com/perfsonar/pscheduler/wiki/Development-and-Test-System)
 
 ## Clone Ansible-Playbook to install Globus and setup a GridFTP Endpoint
 Detailed instructions included in the [Playbook's README.md](https://github.com/nathanShepherd/Playbook-setup-globus-server). This step can be skipped if globus-url-copy is already installed.
