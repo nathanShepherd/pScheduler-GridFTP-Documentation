@@ -9,12 +9,12 @@ sudo yum clean all
 sudo yum install perfsonar-toolkit
 ```
 ## Clone Ansible-Playbook to install Globus and setup a GridFTP Endpoint
-Detailed instructions included in the [Playbook's README.md](https://github.com/nathanShepherd/Playbook-setup-globus-server). This step can be skipped if globus-url-copy is already installed.
+Detailed instructions included in the Ansible Playbook's [README.md](https://github.com/nathanShepherd/Playbook-setup-globus-server). This step can be skipped if globus-url-copy is already installed.
 ```
 git clone https://github.com/nathanShepherd/Playbook-setup-globus-server.git
 ```
 
-## Clone pScheduler / GridFTP branch and make a fresh install as root
+## Clone pScheduler / GridFTP branch and make from source as root
 ```
 git clone https://github.com/perfsonar/pscheduler.git --branch issue-155
 cd pscheduler
