@@ -17,6 +17,11 @@ sudo sh ./system-prep
 Detailed instructions included in the Ansible Playbook's [README.md](https://github.com/nathanShepherd/Playbook-setup-globus-server). This step can be skipped if globus-url-copy is already installed.
 ```
 git clone https://github.com/nathanShepherd/Playbook-setup-globus-server.git
+cd Playbook-setup-globus-server
+sudo yum install ansible
+ansible-playbook main.yml --user root --ask-pass
+sudo globus-connect-server-setup
+
 ```
 
 ## Clone pScheduler / GridFTP branch and make from source as root
