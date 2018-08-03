@@ -1,9 +1,7 @@
 # pScheduler-GridFTP-Documentation
 How to use pScheduler and an ansible script to quickly deploy a GridFTP Server and conduct file transfers.
 
-## Build and Install [perfSonar-Toolkit](https://github.com/perfsonar/pscheduler/wiki/Development-and-Test-System)
-
-## Prepare System  for pScheduler
+## Prepare System for [pScheduler](https://github.com/perfsonar/pscheduler/wiki/Development-and-Test-System)
 ```
 sudo curl -s -O https://raw.githubusercontent.com/perfsonar/pscheduler/master/scripts/system-prep
 ```
