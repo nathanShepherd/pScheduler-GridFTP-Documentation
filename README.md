@@ -21,7 +21,7 @@ cd Playbook-setup-globus-server
 sudo yum install ansible
 ansible-playbook main.yml --user root --ask-pass
 sudo globus-connect-server-setup
-
+cd ..
 ```
 
 ## Clone pScheduler / GridFTP branch and make from source as root
