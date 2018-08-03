@@ -5,12 +5,12 @@ How to use pScheduler and an ansible script to quickly deploy a GridFTP Server a
 
 ## Prepare System  for pScheduler
 ```
-curl -s -O https://raw.githubusercontent.com/perfsonar/pscheduler/master/scripts/system-prep
+sudo curl -s -O https://raw.githubusercontent.com/perfsonar/pscheduler/master/scripts/system-prep
 ```
 For VirtualBox guests on Linux or OS X where you wish to have your account and home directory available
 -  Edit system-prep and uncomment and configure the four environment variables at the top.
 ```
-sh ./system-prep
+sudo sh ./system-prep
 ```
 
 ## Clone Ansible-Playbook to install Globus and setup a GridFTP Endpoint
