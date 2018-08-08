@@ -14,9 +14,9 @@ sudo sh ./system-prep
 ## 2. Clone Ansible-Playbook to install Globus and setup a GridFTP Endpoint
 Detailed instructions included in the Ansible Playbook's [README.md](https://github.com/nathanShepherd/Playbook-setup-globus-server). This step can be skipped if globus-url-copy is already installed.
 ```
+sudo yum install ansible git
 git clone https://github.com/nathanShepherd/Playbook-setup-globus-server.git
 cd Playbook-setup-globus-server
-sudo yum install ansible
 ansible-playbook main.yml --user root --ask-pass
 sudo globus-connect-server-setup
 cd ..
