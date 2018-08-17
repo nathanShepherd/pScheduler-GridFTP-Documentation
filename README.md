@@ -24,7 +24,7 @@ cd ..
 
 ## 3. Clone pScheduler / GridFTP branch and make from source as root
 ```
-git clone https://github.com/perfsonar/pscheduler.git --branch issue-155
+git clone https://github.com/perfsonar/pscheduler.git
 cd pscheduler
 sudo make
 ```
