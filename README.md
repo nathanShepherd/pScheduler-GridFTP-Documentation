@@ -29,17 +29,6 @@ cd pscheduler
 sudo make
 ```
 
-## 4. Build the Plugins to add them to the Server
-```
-cd pscheduler-test-disk-to-disk
-sudo make cbic
-cd ..
-
-cd pscheduler-tool-globus
-sudo make cbic
-cd ..
-```
-
 ## Finally, use pscheduler to conduct a disk-to-disk test using the Globus tool
 ```
 pscheduler task --tool globus disk-to-disk \
