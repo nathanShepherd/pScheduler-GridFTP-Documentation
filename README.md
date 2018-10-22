@@ -22,7 +22,7 @@ git clone https://github.com/nathanShepherd/Playbook-setup-globus-server.git
 cd Playbook-setup-globus-server
 ansible-playbook main.yml --user root --ask-pass
 ```
-The ansible-playbook now will install the required dependcies for globus-url-copy, this may take a few minutes.
+The ansible-playbook now will install the required dependencies for globus-url-copy, this may take a few minutes.
 
 Then, setup your local globus server and enter your Globus ID and Password at the prompt.
 ```
