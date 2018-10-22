@@ -2,7 +2,7 @@
 How to use pScheduler and an ansible script to quickly deploy a GridFTP Server and conduct file transfers. These instructions have been verified on minimal images of CentOS 7.
 
 ## 1. Prepare System for [pScheduler](https://github.com/perfsonar/pscheduler/wiki/Development-and-Test-System)
-Curl the sytem prep scripts from pscheduler master branch.
+Curl the sytem-prep scripts from pscheduler master branch.
 ```
 sudo curl -s -O https://raw.githubusercontent.com/perfsonar/pscheduler/master/scripts/system-prep
 ```
@@ -21,6 +21,11 @@ sudo yum install ansible git
 git clone https://github.com/nathanShepherd/Playbook-setup-globus-server.git
 cd Playbook-setup-globus-server
 ansible-playbook main.yml --user root --ask-pass
+```
+The ansible-playbook now will install the required dependcies for globus-url-copy, this may take a few minutes.
+
+Then, setup your local globus server and enter your Globus ID and Password at the prompt.
+```
 sudo globus-connect-server-setup
 cd ..
 ```
