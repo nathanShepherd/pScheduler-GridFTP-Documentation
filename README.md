@@ -46,6 +46,15 @@ pscheduler task --tool globus disk-to-disk \
 --dest file:///tmp/test.out \
 --timeout PT3S
 ```
+#### Update October 29th, 2018
+Additionally, pass in other options into the underlying globus-url-copy tool. The option -vb is enabled by default.
+```
+pscheduler task --tool globus disk-to-disk \
+--source ftp://speedtest.tele2.net/1KB.zip \
+--dest file:///tmp/test.out \
+--timeout PT3S \
+--options "-fast -p 16"
+```
 NOTE: This test will fail if the file /tmp/test.out exists before the test runs.
 
 Under the hood, pscheduler is running the following command:
