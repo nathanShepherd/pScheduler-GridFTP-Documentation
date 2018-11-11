@@ -47,7 +47,6 @@ pscheduler task --tool globus disk-to-disk \
 --timeout PT3S
 ```
 
-```
 NOTE: This test will fail if the file /tmp/test.out exists before the test runs.
 
 Under the hood, pscheduler is running the following command:
