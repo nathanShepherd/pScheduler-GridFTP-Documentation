@@ -1,5 +1,7 @@
 # pScheduler-GridFTP-Documentation
-How to use pScheduler and an ansible script to quickly deploy a GridFTP Server and conduct file transfers. These instructions have been verified on minimal images of CentOS 7.
+How to use pScheduler and an ansible script to quickly deploy a GridFTP Server and conduct file transfers. These instructions have been verified on minimal images of CentOS 7. 
+
+This software is a plugin for the pScheduler project that adds a disk-to-disk feature to the testing suite. More information and an alternative installation process can be found on the [pScheduler Wiki](https://github.com/perfsonar/project/wiki/pScheduler-Disk-to-Disk-Plugin-Installation).
 
 ## 1. Prepare System for [pScheduler](https://github.com/perfsonar/pscheduler/wiki/Development-and-Test-System)
 Curl the sytem-prep scripts from pscheduler master branch.
