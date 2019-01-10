@@ -51,6 +51,12 @@ pscheduler task --tool globus disk-to-disk \
 
 NOTE: This test will fail if the file /tmp/test.out exists before the test runs.
 
+####UPDATE 01/10/2019
+Conduct a GridFTP with multiple parallel streams using the option --parallel
+```
+pscheduler task --tool globus disk-to-disk --parallel 3 --source ftp://sunn-dtn.es.net:2811/data1/10M.dat --dest file:///tmp/test.out --timeout PT10S
+```
+
 Under the hood, pscheduler is running the following command:
 ```
 globus-url-copy -vb ftp://speedtest.tele2.net/1KB.zip file:///tmp/test.out
